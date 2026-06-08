@@ -1,0 +1,32 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (NEVER commit secrets)
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (keep directory, ignore contents)
+logs/*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
