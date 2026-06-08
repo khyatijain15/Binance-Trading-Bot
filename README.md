@@ -397,18 +397,3 @@ The bot **never** exposes raw stack traces to users. Every error is caught and d
 6. The default time-in-force for LIMIT orders is **GTC** (Good-Till-Cancelled).
 
 ---
-
-## 🔮 Future Improvements
-
-- [ ] **OCO (One-Cancels-Other) orders** — support additional complex order types
-- [ ] **Exchange info cache** — fetch and cache symbol rules to validate precision before order submission
-- [ ] **Retry logic** — exponential back-off on transient network failures
-- [ ] **Async support** — migrate to `python-binance` async client for high-throughput bots
-- [ ] **Unit & integration tests** — pytest suite with mocked API responses
-- [ ] **Docker support** — `Dockerfile` for reproducible deployments
-- [ ] **Configuration file** — YAML/TOML config for default symbols, quantities, and logging levels
-- [ ] **Webhook / Telegram alerts** — notify on order fills or failures
-- [ ] **WebSocket price feed** — live price ticker in the web dashboard
-- [ ] **Position tracking** — display open positions and PnL
-
----
